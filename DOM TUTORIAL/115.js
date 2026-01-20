@@ -1,0 +1,8 @@
+// elem.insertAdjacent  HTML(where,html)
+// before begin
+// afterbegin
+// beforeend
+// afterend
+
+// const todoList = document.querySelector(".todo-list");
+// todoList.insertAdjacentHTML("afterend","<li>Teach Students</li>");

@@ -99,3 +99,10 @@ switch(day){
       break;
       default: console.log('invalid day')
 }
+ 
+for(let i=0;i<=50;i++){
+    if(i===6){
+continue;
+}
+        console.log(i)
+}

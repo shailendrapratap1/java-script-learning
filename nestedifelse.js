@@ -86,23 +86,42 @@
 // }
 
 
-let day = 2;
-switch(day){
-    case 0:
-        console.log('sunday')
-        break;
-        case 1:
-      console.log('monday')
-      case 2:
-        console.log('tuesdau')
+// let day = 2;
+// switch(day){
+//     case 0:
+//         console.log('sunday')
+//         break;
+//         case 1:
+//       console.log('monday')
+//       case 2:
+//         console.log('tuesdau')
         
-      break;
-      default: console.log('invalid day')
-}
+//       break;
+//       default: console.log('invalid day')
+// }
  
-for(let i=0;i<=50;i++){
-    if(i===6){
-continue;
-}
-        console.log(i)
-}
+// for(let i=0;i<=50;i++){
+//     if(i===6){
+// continue;
+// }
+//         console.log(i)
+// }
+// let mixed = [1,2,2.3, "string", null, undefined];
+// console.log(mixed);
+// console.log(Array.isArray(mixed))
+
+let fruits  = [ "apple","mango","banana","jkgdjkg"]
+console.log(fruits.push('klgdkgld'),(fruits))
+let fruit2 = ["vxkvkz","fkfhkf","fsksfhk"]
+console.log(fruit2.unshift("sjfksjfs"),(fruit2))
+
+// let fruit = ["kdlkg","gjdjk","kgdllgk","kdfk"]
+// console.log(fruit.pop(fruit))
+
+//  const fruits3 = ["apple","banana","papaya","fruit"]
+//  const fruits0= []
+//  for(let index in fruits3){
+//     fruits0.push(fruits3[index].toUpperCase())
+//  }
+//  console.log(fruits0)
+

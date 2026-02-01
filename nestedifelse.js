@@ -84,3 +84,18 @@
 //         console.log('too high')
 //     }
 // }
+
+
+let day = 2;
+switch(day){
+    case 0:
+        console.log('sunday')
+        break;
+        case 1:
+      console.log('monday')
+      case 2:
+        console.log('tuesdau')
+        
+      break;
+      default: console.log('invalid day')
+}

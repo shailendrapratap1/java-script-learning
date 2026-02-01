@@ -17,5 +17,5 @@ const userCart=[
         {productId:2, productName:"laptop",price: 3400},
     {productId:3, productName:"charger",price: 5500},
 ]
-const ans =userCart.every((cartItem)=>cartItem.price< 30000);
+const ans =userCart.every((cartItem)=>cartItem.price< 30);
 console.log(ans);

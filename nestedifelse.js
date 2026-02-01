@@ -110,10 +110,10 @@
 // console.log(mixed);
 // console.log(Array.isArray(mixed))
 
-let fruits  = [ "apple","mango","banana","jkgdjkg"]
-console.log(fruits.push('klgdkgld'),(fruits))
-let fruit2 = ["vxkvkz","fkfhkf","fsksfhk"]
-console.log(fruit2.unshift("sjfksjfs"),(fruit2))
+// let fruits  = [ "apple","mango","banana","jkgdjkg"]
+// console.log(fruits.push('klgdkgld'),(fruits))
+// let fruit2 = ["vxkvkz","fkfhkf","fsksfhk"]
+// console.log(fruit2.unshift("sjfksjfs"),(fruit2))
 
 // let fruit = ["kdlkg","gjdjk","kgdllgk","kdfk"]
 // console.log(fruit.pop(fruit))
@@ -125,3 +125,18 @@ console.log(fruit2.unshift("sjfksjfs"),(fruit2))
 //  }
 //  console.log(fruits0)
 
+const myArray =["value1","value2","value3"]
+let[myvar1,myvar2,...mynewArray] = myArray;
+console.log("value of myvar1",myvar1);
+console.log("value of myvar2",myvar2);
+console.log(myArray)
+
+const person = {
+    name:"rahul",
+    age:33,
+    hobbies:'gdkjgkdj'
+
+}
+console.log(person.name)
+person["person"] = "male"
+console.log(person)

@@ -28,4 +28,22 @@
  age = Number(age)
  console.log(typeof age)
 
- let newString
+ let String1 = "hgjghdj"
+ let String2 = "hfdjf"
+
+ let newString = +String1 + +String2;
+ console.log(typeof newString)
+ console.log(newString)
+
+
+ let myVariable = null;
+console.log(myVariable);
+myVariable = "harshit";
+console.log(myVariable, typeof myVariable);
+console.log(typeof null);
+
+let myNumber = BigInt(12);
+let sameMyNumber = 123n;
+console.log(myNumber);
+console.log(Number.MAX_SAFE_INTEGER);
+console.log(myNumber+ sameMyNumber);

@@ -227,18 +227,43 @@
 //     return -1;
 // }
 
-function app(){
-    const myFunc = () => {
-        console.log('hello from myFunc')
-    }
-    const addTwo = (num1,num2)=>{
-        return num1 + num2;
-    }
+// function app(){
+//     const myFunc = () => {
+//         console.log('hello from myFunc')
+//     }
+//     const addTwo = (num1,num2)=>{
+//         return num1 + num2;
+//     }
 
-const mul = (num1,num2) => num1*num2;
-console.log("inside app")
-myFunc();
-console.log(addTwo(2,3));
-console.log(mul(2,3));
+// const mul = (num1,num2) => num1*num2;
+// console.log("inside app")
+// myFunc();
+// console.log(addTwo(2,3));
+// console.log(mul(2,3));
+// }
+// app();
+
+const numbers = [3,4,5,6,18];
+const square = function(square){
+    return number * number;
 }
-app();
+
+
+const squareNumber =  numbers.map((number,index)=>{
+    return index;
+})
+
+console.log(squareNumber)
+
+
+
+const anials = [
+    {name:"giraffe",age:32},
+    {name:'kangaroo',age:68},
+    
+]
+const anialNames = anials.map((anial)=>{
+    return anial.name
+})
+console.log(anialNames)
+

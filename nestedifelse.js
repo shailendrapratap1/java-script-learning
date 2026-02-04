@@ -203,8 +203,42 @@
 //     return number1+number2+number3;
 // }
 // const ans = sumThreeNumbers(2,3,4);
-const multiplyTNumbers = function(number1,number2,number3){
-    return number1*number2*number3;
+// const multiplyTNumbers = function(number1,number2,number3){
+//     return number1*number2*number3;
+// }
+// const ans = multiplyTNumbers(4,5,6);
+// console.log(ans)
+
+
+// const isEven = function(number){
+//     return number % 2 === 0;
+// }
+// const firstChar = function(anyString){
+//     return anyString[0];
+// }
+
+
+// const findTarget = function(array,target){
+//     for(let i=0;i<array.length;i++){
+//         if(array[i]===target){
+//             return i;
+//         }
+//     }
+//     return -1;
+// }
+
+function app(){
+    const myFunc = () => {
+        console.log('hello from myFunc')
+    }
+    const addTwo = (num1,num2)=>{
+        return num1 + num2;
+    }
+
+const mul = (num1,num2) => num1*num2;
+console.log("inside app")
+myFunc();
+console.log(addTwo(2,3));
+console.log(mul(2,3));
 }
-const ans = multiplyTNumbers(4,5,6);
-console.log(ans)
+app();

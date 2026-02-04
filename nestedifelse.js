@@ -125,18 +125,86 @@
 //  }
 //  console.log(fruits0)
 
-const myArray =["value1","value2","value3"]
-let[myvar1,myvar2,...mynewArray] = myArray;
-console.log("value of myvar1",myvar1);
-console.log("value of myvar2",myvar2);
-console.log(myArray)
+// const myArray =["value1","value2","value3"]
+// let[myvar1,myvar2,...mynewArray] = myArray;
+// console.log("value of myvar1",myvar1);
+// console.log("value of myvar2",myvar2);
+// console.log(myArray)
 
-const person = {
-    name:"rahul",
-    age:33,
-    hobbies:'gdkjgkdj'
+// const person = {
+//     name:"rahul",
+//     age:33,
+//     hobbies:'gdkjgkdj'
 
+// }
+// console.log(person.name)
+// person["person"] = "male"
+// console.log(person)
+
+
+
+// const person={
+//     name:"harshit",
+//     age:22,
+//     "person hobbies":["guitar","sleeping","listening musioc"]
+// }
+// for(let key in person){
+//     // console.log(`${key}`);
+//     console.log(key," : ",person[key]);
+   
+// }
+// const animal ={
+//     name:"giraffe",
+//     age:'6767',
+//     "speciality":["long height","weighted","hve long reach"]
+// }
+// for(let key in animal){
+//     console.log(key, "  : ",animal[key]);
+// }
+// console.log(typeof (Object.keys(animal)))
+// console.log(Array.isArray(Object.keys(animal)));
+
+
+
+
+// const band = {
+//     bandName:"led zepplin",
+//     famousSong:"stairway to heaven",
+//     year:1968,
+//     anotherFamousSong:"kashmir"
+// }
+
+// let {bandName,famousSong,...restProps} =band;
+// console.log(bandName);
+// console.log(restProps)
+
+// function singhHappyBirthDay(){
+//     console.log("happy birthday to you ....");
+// }
+
+// function sumThreeNumbers(number1,number2,number3){
+//     return number1 + number2 + number3;
+// }
+// function findTarget(array,target){
+//     for(let i=0;i<array.length;i++){
+//         if(array[i]===target){
+//             return i;
+//         }
+//     }
+//     return -1;
+// }
+// const myArray = [13,8,90,6]
+// const ans = findTarget(myArray,4)
+// console.log(ans)
+
+
+// c
+// console.log(ans)onst sumThreeNumbers = function(number1,number2,number3){
+//     return number1+number2+number3;
+// }
+// const ans = sumThreeNumbers(2,3,4);
+const multiplyTNumbers = function(number1,number2,number3){
+    return number1*number2*number3;
 }
-console.log(person.name)
-person["person"] = "male"
-console.log(person)
+const ans = multiplyTNumbers(4,5,6);
+console.log(ans)

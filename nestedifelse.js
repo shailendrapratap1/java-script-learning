@@ -243,27 +243,38 @@
 // }
 // app();
 
-const numbers = [3,4,5,6,18];
-const square = function(square){
-    return number * number;
-}
+// const numbers = [3,4,5,6,18];
+// const square = function(square){
+//     return number * number;
+// }
 
 
-const squareNumber =  numbers.map((number,index)=>{
-    return index;
-})
+// const squareNumber =  numbers.map((number,index)=>{
+//     return index;
+// })
 
-console.log(squareNumber)
+// console.log(squareNumber)
 
 
 
-const anials = [
-    {name:"giraffe",age:32},
-    {name:'kangaroo',age:68},
+// const anials = [
+//     {name:"giraffe",age:32},
+//     {name:'kangaroo',age:68},
     
-]
-const anialNames = anials.map((anial)=>{
-    return anial.name
-})
-console.log(anialNames)
+// ]
+// const anialNames = anials.map((anial)=>{
+//     return anial.name
+// })
+// console.log(anialNames)
 
+// const userCart = [
+//     {productId:1,productName:"mobile",price:12000},
+//     {productId:2,productName:"telivision",price:34666},
+//     {productId:3,productName:"tutu",price:67676}
+
+// ]
+
+// const total = userCart.reduce((totalPrice,CurrentProduct)=>{
+//     return totalPrice + CurrentProduct.price;
+// },0)
+// console.log(total)

@@ -278,3 +278,13 @@
 //     return totalPrice + CurrentProduct.price;
 // },0)
 // console.log(total)
+
+const users = [
+    {userId:1,firstName:'harshit',gender:'male'},
+    {userId:2,firstName:'mohit',gender:'male'}
+]
+
+const[{firstName:user1firstName,userId},{gender:user2gender}] = users;
+console.log(user1firstName)
+console.log(userId);
+console.log(user2gender);

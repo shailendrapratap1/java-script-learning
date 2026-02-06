@@ -312,17 +312,27 @@
 // const ans =  AddAllnumbers(4,567,7,54);
 // console.log(ans)
 
- const person  = {
-    firstName:"harshit",
-    lastName:"vashish"
- }
+//  const person  = {
+//     firstName:"harshit",
+//     lastName:"vashish"
+//  }
 
- function all({firstName,lastName}){
-console.log(firstName);
-console.log(lastName);
- }
- all(person);
+//  function all({firstName,lastName}){
+// console.log(firstName);
+// console.log(lastName);
+//  }
+//  all(person);
 
+function myFunc2(name){
+    console.log("inside my func 2")
+    console.log(`your name is ${name}`);
+}
+
+function myFunc(callback){
+    console.log("heeloo there i am a fuunc")
+    callback("harhsit")
+}
+myFunc(myFunc2)
 
 
 

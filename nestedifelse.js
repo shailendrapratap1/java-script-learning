@@ -391,18 +391,33 @@
 // })
 // console.log(hightolo)
 
-const myArray = ["Hello","catt","dog","lion"];
+// const myArray = ["Hello","catt","dog","lion"];
 
 
-const ans =  myArray.find((string)=> string.length===3);
-console.log(ans)
+// const ans =  myArray.find((string)=> string.length===3);
+// console.log(ans)
+
+
+// const userCart = [
+//     {productId: 1, productName: "mobile", price: 12000},
+//     {productId: 2, productName: "laptop", price: 22000},
+//     {productId: 3, productName: "tv", price: 35000},
+// ]
 
 
 
+// const an = userCart.some((cartItem)=>cartItem<20000)
+// console.log(an)
 
+// const person = new Map();
 
+// person.set('firstName',"harshit")
+// person.set('height',5.4)
+// person.set('age',34)
 
-
+// for( let [key,value] of person){
+//     console.log(key,value)
+// }
 
 
 

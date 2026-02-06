@@ -279,12 +279,46 @@
 // },0)
 // console.log(total)
 
-const users = [
-    {userId:1,firstName:'harshit',gender:'male'},
-    {userId:2,firstName:'mohit',gender:'male'}
-]
+// const users = [
+//     {userId:1,firstName:'harshit',gender:'male'},
+//     {userId:2,firstName:'mohit',gender:'male'}
+// ]
 
-const[{firstName:user1firstName,userId},{gender:user2gender}] = users;
-console.log(user1firstName)
-console.log(userId);
-console.log(user2gender);
+// const[{firstName:user1firstName,userId},{gender:user2gender}] = users;
+// console.log(user1firstName)
+// console.log(userId);
+// console.log(user2gender);
+
+function myApp(){
+    if(true){
+        var firstName = "harshit"
+        console.log(firstName)
+    }
+    if(true){
+        console.log(firstName)
+    }
+    console.log(firstName)
+}
+myApp();
+
+
+function AddAllnumbers(...numbers){
+let total = 0;
+for(let number of numbers){
+    total = total + number;
+}
+return total;
+}
+const ans =  AddAllnumbers(4,567,7,54);
+console.log(ans)
+
+
+
+
+
+
+
+
+
+
+

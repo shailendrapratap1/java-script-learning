@@ -421,6 +421,28 @@
 
 
 
+// const person = {
+//     id:1,
+//     firstName:"hjhj"
+// }
+// const perdon2 ={
+//     id:2,
+//     firstName:"khj"
+// }
 
+// const extraInfo = new Map();
+// extraInfo.set(person,{age:8,height:7878})
 
+// console.log(person.id)
 
+const obj = {
+    key1 : "value1",
+    key2:"value2"
+}
+
+// const obj2 = {'key69':"value69",...obj}
+const obj2 = Object.assign({'key69':"value69"},obj)
+obj.key3 = "value3";
+
+console.log(obj)
+console.log(obj2)

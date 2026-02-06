@@ -373,20 +373,39 @@
  
 // console.log(totalAmount)
 
-const products = [
-    {productId: 1, produceName: "p1",price: 300 },
-    {productId: 2, produceName: "p2",price: 3000 },
-    {productId: 3, produceName: "p3",price: 200 },
-    {productId: 4, produceName: "p4",price: 8000 },
-    {productId: 5, produceName: "p5",price: 500 },
-]
+// const products = [
+//     {productId: 1, produceName: "p1",price: 300 },
+//     {productId: 2, produceName: "p2",price: 3000 },
+//     {productId: 3, produceName: "p3",price: 200 },
+//     {productId: 4, produceName: "p4",price: 8000 },
+//     {productId: 5, produceName: "p5",price: 500 },
+// ]
 
-const lotoHigh =  products.slice(0).sort((a,b)=>{
-    return a.price - b.price
-})
-console.log(lotoHigh)
+// const lotoHigh =  products.slice(0).sort((a,b)=>{
+//     return a.price - b.price
+// })
+// console.log(lotoHigh)
 
-const hightolo =  products.slice(0).sort((a,b)=>{
-    return b.price - a.price
-})
-console.log(hightolo)
+// const hightolo =  products.slice(0).sort((a,b)=>{
+//     return b.price - a.price
+// })
+// console.log(hightolo)
+
+const myArray = ["Hello","catt","dog","lion"];
+
+
+const ans =  myArray.find((string)=> string.length===3);
+console.log(ans)
+
+
+
+
+
+
+
+
+
+
+
+
+

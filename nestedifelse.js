@@ -354,3 +354,29 @@
 // console.log(res)
 
 
+const userCart = [{
+    productId:1,productName:"iphone", productCost:6767
+},
+{
+    productId:2,productName:"ghfgfh",productCost:78788
+},
+{
+    productId:3,productName:"hjhjh",productCost:6767
+
+}
+
+]
+
+const totalAmount =  userCart.reduce((totalPrice,CurrentProduct)=>{
+      return totalPrice + CurrentProduct.productCost
+},670)
+ 
+console.log(totalAmount)
+
+const products = [
+    {productId: 1, produceName: "p1",price: 300 },
+    {productId: 2, produceName: "p2",price: 3000 },
+    {productId: 3, produceName: "p3",price: 200 },
+    {productId: 4, produceName: "p4",price: 8000 },
+    {productId: 5, produceName: "p5",price: 500 },
+]

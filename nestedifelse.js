@@ -354,24 +354,24 @@
 // console.log(res)
 
 
-const userCart = [{
-    productId:1,productName:"iphone", productCost:6767
-},
-{
-    productId:2,productName:"ghfgfh",productCost:78788
-},
-{
-    productId:3,productName:"hjhjh",productCost:6767
+// const userCart = [{
+//     productId:1,productName:"iphone", productCost:6767
+// },
+// {
+//     productId:2,productName:"ghfgfh",productCost:78788
+// },
+// {
+//     productId:3,productName:"hjhjh",productCost:6767
 
-}
+// }
 
-]
+// ]
 
-const totalAmount =  userCart.reduce((totalPrice,CurrentProduct)=>{
-      return totalPrice + CurrentProduct.productCost
-},670)
+// const totalAmount =  userCart.reduce((totalPrice,CurrentProduct)=>{
+//       return totalPrice + CurrentProduct.productCost
+// },670)
  
-console.log(totalAmount)
+// console.log(totalAmount)
 
 const products = [
     {productId: 1, produceName: "p1",price: 300 },
@@ -380,3 +380,13 @@ const products = [
     {productId: 4, produceName: "p4",price: 8000 },
     {productId: 5, produceName: "p5",price: 500 },
 ]
+
+const lotoHigh =  products.slice(0).sort((a,b)=>{
+    return a.price - b.price
+})
+console.log(lotoHigh)
+
+const hightolo =  products.slice(0).sort((a,b)=>{
+    return b.price - a.price
+})
+console.log(hightolo)

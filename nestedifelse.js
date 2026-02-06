@@ -448,10 +448,44 @@
 // console.log(obj2)
 
 
-const user = {
-    firstName: "harshit",
-    // address:{houseNumber:'1234'}
-}
+// const user = {
+//     firstName: "harshit",
+//     // address:{houseNumber:'1234'}
+// }
 
-console.log(user?.firstName)
-console.log(user?.address?.houseNumber)
+// console.log(user?.firstName)
+// console.log(user?.address?.houseNumber)
+
+
+// function personInfo(){
+//        console.log(`persn name is ${this.firstName} and age is ${this.age}`)
+// }
+
+// const person1 = {
+//     firstName:"harsui",
+//     age:90
+// }
+
+// person1.age();
+
+//   function func () {
+
+// function about(hobby, favMuscician){
+//     console.log(this.firstName,this.age,this.favMuscician)
+// }
+
+// const user1 = {
+//     firstName :"harshit",
+//     age:8
+// }
+// const user2 = {
+//     firstName:"kll",
+//     age:89
+// }
+
+// about.apply(user1,["guitar","bach"]);
+// const func = about.bind(user2,"guitar","bach")
+//   }
+// func();
+
+

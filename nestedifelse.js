@@ -323,22 +323,34 @@
 //  }
 //  all(person);
 
-function myFunc2(name){
-    console.log("inside my func 2")
-    console.log(`your name is ${name}`);
-}
+// function myFunc2(name){
+//     console.log("inside my func 2")
+//     console.log(`your name is ${name}`);
+// }
 
-function myFunc(callback){
-    console.log("heeloo there i am a fuunc")
-    callback("harhsit")
-}
-myFunc(myFunc2)
+// function myFunc(callback){
+//     console.log("heeloo there i am a fuunc")
+//     callback("harhsit")
+// }
+// myFunc(myFunc2)
 
+// const users = [ 
+//     {
+//         firstn:"hfjfjs",age:34
+//     },{firstn:"jkjk",age:54}
 
+// ]
 
+// const usersn = users.map((user)=>{
+//     return user.firstn
+// })
+// console.log(usersn)
 
+// const numbers = [2,34,4,5];
 
-
-
+// // const res = numbers.filter((number)=>{
+// //     return number%2==0
+// // })
+// console.log(res)
 
 

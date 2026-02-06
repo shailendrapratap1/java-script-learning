@@ -289,29 +289,39 @@
 // console.log(userId);
 // console.log(user2gender);
 
-function myApp(){
-    if(true){
-        var firstName = "harshit"
-        console.log(firstName)
-    }
-    if(true){
-        console.log(firstName)
-    }
-    console.log(firstName)
-}
-myApp();
+// function myApp(){
+//     if(true){
+//         var firstName = "harshit"
+//         console.log(firstName)
+//     }
+//     if(true){
+//         console.log(firstName)
+//     }
+//     console.log(firstName)
+// }
+// myApp();
 
 
-function AddAllnumbers(...numbers){
-let total = 0;
-for(let number of numbers){
-    total = total + number;
-}
-return total;
-}
-const ans =  AddAllnumbers(4,567,7,54);
-console.log(ans)
+// function AddAllnumbers(...numbers){
+// let total = 0;
+// for(let number of numbers){
+//     total = total + number;
+// }
+// return total;
+// }
+// const ans =  AddAllnumbers(4,567,7,54);
+// console.log(ans)
 
+ const person  = {
+    firstName:"harshit",
+    lastName:"vashish"
+ }
+
+ function all({firstName,lastName}){
+console.log(firstName);
+console.log(lastName);
+ }
+ all(person);
 
 
 

@@ -500,6 +500,128 @@
 // const myFunc = user1.about.bind(user1);
 // myFunc()
 
-function
+// function createUser(firstName,lastName,email,age,address){
+//     const user = {};
+//     user.firstName = firstName;
+//     user.lastName = lastName;
+//      user.email = email;
+//      user.age= age;
+//      user.address=address;
+//      user.about = function(){
+//         return `${this.firstName} is ${this.age} years old`
+//      }
+//      user.is18 = function(){
+//      return this.age >= 18;
+//     }     
+//    return user;
+// }
+
+// const user1 = createUser('harshit',"vashisth","ghgh@email.com",19,"jkjkjkjkj")
+// const is18 = user1.is18();
+//  const about = user1.about();
+//     console.log(user1)
+
+// console.log(about);
+
+
+
+// const userNames = ['harshit','vashisth',"fhgfh","gfshgf"];
+
+// userNames.sort();
+// console.log(userNames)
+
+
+// const user =["rahul","gdgdg","dsd"]
+// user.sort()
+// console.log(user);
+
+// const numbers =[23,23,221,45]
+
+// numbers.sort((a,b)=>{
+// return b-a;
+// })
+// console.log(numbers)
+
+// const users =[
+//    {userId:1,userName:'pulkit',
+
+//    },{
+//       userId:2,userName:"yryryry"
+//    },{
+//       userId:3,userName:"gdfsgh"
+//    }
+// ]
+
+// users.sort((a,b)=>{
+//    if(a.userName > b.userName){
+//       return 1;
+//    }else{
+//       return -1;
+//    }
+// })
+// console.log(users)
+
+
+// const myArray =["Hello","catt","dog","lion"]
+
+// function isLength3(string){
+//    return string.length===3
+// }
+// const ans = myArray.find((string)=>string.length===3);
+// console.log(ans)
+
+// const userCart = [
+//     {productId: 1, productName: "mobile", price: 12000},
+//     {productId: 2, productName: "laptop", price: 22000},
+//     {productId: 3, productName: "tv", price: 35000},
+// ]
+
+// const ans = userCart.some((cartItem)=> cartItem.price <= 30000)
+// ill(0,3,5)
+// console.log(ans)
+
+
+const myArray = [1,2,3,4,5,6,7,8,9]
+
+// const deletedItem = myArray.splice(1,2);
+// console.log("deleted Item",deletedItem);
+
+myArray.splice(1,0,6)
+console.log(myArray)
+
+
+
+// MAPS ITERABLE STORES DTA IN KEY VALUE PAIR like objext
+// duplicates keys are not allowed
+
+const person = new Map();
+person.set('firstName','Harshit');
+person.set('age',7);
+person.set(1,'one')
+person.set([1,2,3],'one teo three')
+console.log(person)
+
+for(let key of person.keys()){
+   console.log(key,typeof key)
+}
+for(let [key,value] of person){
+   console.log(Array.isArray(key))
+   console.log(key,value)
+}
+
+
+
+const person1 = {
+    id: 1,
+    firstName: "harshit"
+}
+const person2 = {
+    id: 2,
+    firstName: "harshta"
+}
+const extraInfo = new Map();
+extraInfo.set(person1,{age:8,gender:'male'})
+extraInfo.set(person2,{age:90,gender:'fenmale'})
+console.log(extraInfo)
 
 

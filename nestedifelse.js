@@ -624,4 +624,52 @@ extraInfo.set(person1,{age:8,gender:'male'})
 extraInfo.set(person2,{age:90,gender:'fenmale'})
 console.log(extraInfo)
 
+function about(hobby, favMuscisian){
+    console.log(this.firstName,this.age,favMuscisian,hobby)
+}
+const user1 = {
+    firstName:"harshit",
+    age:8,
+}
+const user2 = {
+    firstName:"mohit",
+    age:9
+}
+about.apply(user1,["guitar","bach"])
+const func = about.bind(user2,"guitar","bach")
+func();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

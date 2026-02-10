@@ -581,66 +581,73 @@
 // console.log(ans)
 
 
-const myArray = [1,2,3,4,5,6,7,8,9]
+// const myArray = [1,2,3,4,5,6,7,8,9]
 
 // const deletedItem = myArray.splice(1,2);
 // console.log("deleted Item",deletedItem);
 
-myArray.splice(1,0,6)
-console.log(myArray)
+// myArray.splice(1,0,6)
+// console.log(myArray)
 
 
 
-// MAPS ITERABLE STORES DTA IN KEY VALUE PAIR like objext
-// duplicates keys are not allowed
+// // MAPS ITERABLE STORES DTA IN KEY VALUE PAIR like objext
+// // duplicates keys are not allowed
 
-const person = new Map();
-person.set('firstName','Harshit');
-person.set('age',7);
-person.set(1,'one')
-person.set([1,2,3],'one teo three')
-console.log(person)
+// const person = new Map();
+// person.set('firstName','Harshit');
+// person.set('age',7);
+// person.set(1,'one')
+// person.set([1,2,3],'one teo three')
+// console.log(person)
 
-for(let key of person.keys()){
-   console.log(key,typeof key)
-}
-for(let [key,value] of person){
-   console.log(Array.isArray(key))
-   console.log(key,value)
-}
+// for(let key of person.keys()){
+//    console.log(key,typeof key)
+// }
+// for(let [key,value] of person){
+//    console.log(Array.isArray(key))
+//    console.log(key,value)
+// }
 
 
 
-const person1 = {
-    id: 1,
-    firstName: "harshit"
-}
-const person2 = {
-    id: 2,
-    firstName: "harshta"
-}
-const extraInfo = new Map();
-extraInfo.set(person1,{age:8,gender:'male'})
-extraInfo.set(person2,{age:90,gender:'fenmale'})
-console.log(extraInfo)
+// const person1 = {
+//     id: 1,
+//     firstName: "harshit"
+// }
+// const person2 = {
+//     id: 2,
+//     firstName: "harshta"
+// }
+// const extraInfo = new Map();
+// extraInfo.set(person1,{age:8,gender:'male'})
+// extraInfo.set(person2,{age:90,gender:'fenmale'})
+// console.log(extraInfo)
 
-function about(hobby, favMuscisian){
-    console.log(this.firstName,this.age,favMuscisian,hobby)
-}
+// function about(hobby, favMuscisian){
+//     console.log(this.firstName,this.age,favMuscisian,hobby)
+// }
+// const user1 = {
+//     firstName:"harshit",
+//     age:8,
+// }
+// const user2 = {
+//     firstName:"mohit",
+//     age:9
+// }
+// about.apply(user1,["guitar","bach"])
+// const func = about.bind(user2,"guitar","bach")
+// func();
+
 const user1 = {
     firstName:"harshit",
     age:8,
+    about:()=>{
+        console.log(this.firstName,this.age)
+    }
 }
-const user2 = {
-    firstName:"mohit",
-    age:9
-}
-about.apply(user1,["guitar","bach"])
-const func = about.bind(user2,"guitar","bach")
-func();
 
-
-
+user1.about();
 
 
 

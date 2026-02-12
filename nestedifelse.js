@@ -740,34 +740,118 @@
 // console.log(tommy.isCute)
 
 
-class Animal {
-    constructor(name, age){
-        this.name = name;
-        this.age = age;
-    }
+// class Animal {
+//     constructor(name, age){
+//         this.name = name;
+//         this.age = age;
+//     }
 
-    eat(){
-        return `${this.name} is eating`;
-    }
+//     eat(){
+//         return `${this.name} is eating`;
+//     }
 
-    isSuperCute(){
-        return this.age <= 1;
-    }
+//     isSuperCute(){
+//         return this.age <= 1;
+//     }
 
-    isCute(){
-        return true;
-    }
+//     isCute(){
+//         return true;
+//     }
+// }
+
+// class Dog extends Animal{
+//     constructor(name, age, speed){
+//         super(name,age);
+//         this.speed = speed;
+//     }
+
+//     run(){
+//         return `${this.name} is running at ${this.speed}kmph`
+//     }
+// } 
+// const tommy = new Dog("tommy", 3,45);
+// console.log(tommy.run());
+// function CreateUser(firstName,lastName,email,age,address){
+//     this.firstName = firstName;
+//      this.lastName = lastName;
+//      this.email = email;
+//      this.age = age;
+//      this.address = address;
+// }
+// CreateUser.prototype.about = function(){
+//     return `${this.firstName} is${this.age} years old`
+// }
+// CreateUser.prototype.is18 = function(){
+//     return this.age >= 18;
+// }
+// CreateUser.prototype.bark = function(){
+//     return 'bho bho bho'
+// }
+
+// const user1 =new CreateUser('harshit','vashisth','harshit@gmail.com','and@gmail.com','myAddress')
+// const user2 = new CreateUser('harsh','vashs','hjah@gmail.com',"my Address")
+//  const user3 = new CreateUser('rahul','sharma','hjshdj@hdhsj.','19','myyAddress')
+
+
+// console.log(user1)
+// console.log(user1.is18())
+
+class Person{
+   constructor(firstName,lastName,age){
+    this.firstName=firstName;
+    this.lastName = lastName;
+    this.age = age;
+    
+   }
+   static classInfo(){
+    return 'this is person class'
+   }
+   static desc = 'static property'
+   get fullName(){
+    return `${this.firstName} ${this.lastName}`
+   }
+   set fullName(fullName){
+    const [firstName,lastName] = fullName.split(" ");
+    this.firstName = firstName;
+    this.lastName = lastName;
+    
+   }
+   eat(){
+    return `${this.firstName} is eating`
+   }
+   isSuperCute(){
+    return this.age <= 1;
+   }
+   isCute(){
+    return true;
+   }
 }
+const person1 = new Person("harshit", "sharma", 8);
 
-class Dog extends Animal{
-    constructor(name, age, speed){
-        super(name,age);
-        this.speed = speed;
-    }
+console.log(person1.eat())
+  const info = Person.classInfo();
 
-    run(){
-        return `${this.name} is running at ${this.speed}kmph`
-    }
-} 
-const tommy = new Dog("tommy", 3,45);
-console.log(tommy.run());
+console.log(person1.desc)
+console.log(info)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,6 +1,13 @@
 // select leemnt by using query selector
 
+// const mainHeading = document.querySelector("#main-heading");
+// const header = document.querySelector(".header");
+// const navItem = document.querySelectorAll(".nav-item")
+// console.log(navItem);
+
+
 const mainHeading = document.querySelector("#main-heading");
-const header = document.querySelector(".header");
+
+const header = document.querySelector(".header")
 const navItem = document.querySelectorAll(".nav-item")
-console.log(navItem);
+console.log(navItem)

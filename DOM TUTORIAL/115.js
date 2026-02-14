@@ -9,16 +9,3 @@ todoList.insertAdjacentHTML("afterbegin","<li>Teach Students</li>");
 
 
 todoList.insertAdjacentHTML("afterbegin","<li>the lisy is clear</li>")
-
-
-
-
-
-
-
-
-
-
-
-
-

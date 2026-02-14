@@ -8,6 +8,3 @@ allButtons.forEach(button=>{
         e.target.style.color ="#333";
     })
 })
-
-
-

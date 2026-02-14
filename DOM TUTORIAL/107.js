@@ -6,6 +6,10 @@
 // console.log(Array.isArray(navItems));
 // const  navItems = document.querySelectorAll(".nav-item");  // Nodelist
 // console.log(navItems[0])
+// console.log(navItems[3])
+console.log(Array.isArray(navItems));
+const navItems = document.getElementsByClassName(".nav-item")
+console.log(navItems[0])
 
 
 

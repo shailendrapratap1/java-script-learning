@@ -24,3 +24,6 @@
 
 // const todoList = document.querySelector(".todo-list");
 // todoList.before(newTodoItem);
+
+const newTodoItem = document.createElement("li")
+const newTodoItemText = document.createTextNode("Teach students")

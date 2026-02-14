@@ -19,6 +19,17 @@ let navItems = document.getElementsByTagName("a"); // html collection
 //     navItem.style.color = "green";
 //         navItem.style.fontWeight = "bold";
 // }
+// for(let i=0;i<navItems.length;i++){
+//     console.log(navItems[i])
+//     const navItem = navItems[i];
+
+//     navItem.style.color = 'red'
+// }
+
+
+
+
+
 // for(let navItem of navItems){
 //      navItem.style.backgroundColor ="#fff";
 //     navItem.style.color = "green";
@@ -27,15 +38,15 @@ let navItems = document.getElementsByTagName("a"); // html collection
 // }
 
 
-// navItems = Array.from(navItems);
+navItems = Array.from(navItems);
 // // console.log(Array.isArray(navItems))
-// navItems.forEach((navItem)=>{
-//  navItem.style.backgroundColor ="#fff";
-//     navItem.style.color = "green";
-//         navItem.style.fontWeight = "bold";
+navItems.forEach((navItem)=>{
+ navItem.style.backgroundColor ="#fff";
+    navItem.style.color = "blue";
+        navItem.style.fontWeight = "bold";
 
 
-// })
+})
     
 
     
